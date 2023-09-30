@@ -1,0 +1,19 @@
+.skill-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .skill-table th, .skill-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .skill-table th {
+        background-color: #f2f2f2;
+    }
+
+    .skill-table tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }

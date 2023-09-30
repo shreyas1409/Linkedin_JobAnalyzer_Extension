@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LinkedIn Job Info Extractor</title>
+    <script src="popup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        #chart-container {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Job Details</h1>
+    <pre id="job-details"></pre>
+    <script src="dist/bundle.js"></script>
+    <button id="view-frequencies-button">View CS Skills Frequencies</button>
+    <button id="clear-data-button">Clear Data</button>
+
+    <div id="chart-container">
+        <canvas id="skills-chart"></canvas>
+    </div>
+</body>
+</html>
